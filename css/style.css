@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  transition: 0.4s;
+  cursor: pointer;
+  border: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#header {
+  padding: 20px 0;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  background: #cfd4d7;
+}
+#header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .navbar--nav a {
+  margin-left: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(31, 46, 53, 0.8);
+}
+#header .navbar--nav select {
+  margin-left: 30px;
+  border: none;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(31, 46, 53, 0.8);
+}
+#header .navbar--icon a {
+  margin-left: 20px;
+}
+
+#hero {
+  padding: 60px 0;
+}
+#hero .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#hero .hero .hero--title h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 133.69%;
+  color: #1F2E35;
+}
+#hero .hero .hero--title span {
+  color: red;
+}
+#hero .hero .hero--title p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #30444E;
+}
+#hero .hero .hero--title button {
+  margin: 36px 0;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 20px 30px;
+  background: #EE4248;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+#hero .hero .hero--title button:hover {
+  transform: scale(1.1);
+  color: #EE4248;
+  background: white;
+}
+
+#desc {
+  padding: 40px 0;
+}
+#desc .desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#desc .desc--title h1 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 133.69%;
+  color: #1F2E35;
+  padding-left: 40px;
+}
+#desc .desc--title p {
+  width: 520px;
+  height: 270px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #30444E;
+  padding-left: 40px;
+}
+#desc .desc--title span {
+  color: #EE4248;
+}
+#desc .desc--title .title-p span {
+  color: black;
+}
+
+#service {
+  padding: 40px 0;
+}
+#service .container h1 {
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  color: #1F2E35;
+  padding: 57px 0;
+}
+#service .service {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#service .service h1 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 133.69%;
+  color: #EE4248;
+}
+#service .service p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #30444E;
+  width: 329px;
+}
+#service .service button {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 144.69%;
+  color: #FFFFFF;
+  background: #EE4248;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  padding: 10px 30px;
+  margin: 30px 0;
+}
+#service .service button:hover {
+  transform: scale(1.1);
+  color: #EE4248;
+  background: white;
+}
+
+#contact {
+  padding: 40px 0;
+}
+#contact .contact {
+  display: flex;
+  align-items: center;
+}
+#contact .contact h1 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #263238;
+}
+#contact .contact p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 149.19%;
+  color: #263238;
+  width: 269px;
+}
+#contact .contact .contact-logo {
+  margin-left: 30px;
+}
+
+#footer {
+  padding: 40px;
+  background: #EE4248;
+}
+#footer h1 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
